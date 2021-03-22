@@ -1,0 +1,6 @@
+Name            Average Grade 
+------------------------------
+John             80.00    B
+Terry            79.00    C
+Martha           69.67    D
+Charlie          88.67    B

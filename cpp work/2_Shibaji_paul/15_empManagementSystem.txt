@@ -1,0 +1,3 @@
+101,John Alter,5000,75,100,jdoe@gmail.com
+102,Khan Alter,4000,65,700,kdoe@gmail.com
+103,NMen Alter,6000,75,200,lon@gmail.com
