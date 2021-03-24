@@ -1,0 +1,7 @@
+Nov 20, 2020, 13:03:37
+remove nvidia
+sudo ddm-mx -p nvidia
+
+9:24 AM 2/18/2021
+install rtl8821ce 
+sudo apt install rtl8821ce-dkms

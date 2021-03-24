@@ -1,0 +1,45 @@
+#include <stdio.h>
+int main()
+{
+    int n, a, b, count = 0, arr[100];
+    int k, l;
+    // scanf("%d", &n);
+    // for (int i = 0; i < n; i++)
+    // {
+        // scanf("%d%d", &a, &b);
+        for (int j = 1; j <= 100; j++)
+        {
+            k = j;
+            l = j;
+            k = k / 4;
+            l =l / 4;
+
+            if ((j % 10 == 4 && j%4==0) || (j % 10 == 7 &&  j%7==0)||(j%4==0 && j% 7==0)||(j%10==7 && (j/10)+7==11)||(j%10==4 && (j/10)+4==11)||(j%4==0 && k%4==0 && j%10!=0 && j%10!=2 && j%10!=8 && j%16!=0))
+            {
+            printf("%d\n",j);
+
+
+                count++;//solution mass gala bahir kormu
+            }
+            // else if ((int)k % 4 == 0)
+            // {
+            // printf("%d\n",j);
+             
+            //     count++;
+            // }
+            // else if ((int)l % 4 == 0)
+            // {
+            // printf("%d\n",j);
+
+            //     count++;
+            // }
+        }
+            // arr[i] = count;
+            printf("%d\n", count);
+            count = 0;
+        
+        
+    // }
+
+    return 0;
+}

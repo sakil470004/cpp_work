@@ -1,0 +1,12 @@
+systemctl start bluetooth
+rfkill
+lsmod | grep bt
+sudo modprobe btusb
+sudo rfkill unblock wlan0//if block wlan0
+sudo systemctl enable bluetooth.service
+sudo systemctl start bluetooth.service
+
+rfkill unblock 0
+lsmod | grep btusb
+sudo modprobe btusb
+sudo systemctl enable bluetooth.service

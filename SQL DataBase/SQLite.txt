@@ -1,0 +1,393 @@
+//Data Type
+int,smallInt,bigInt;
+float,double(sizefull(M), after the point size(D)),Decimal(M,D)
+
+//create database
+create database database_Name;
+
+//delete dataBase
+drop Database db_Name;
+
+//Show all databases
+show databases;
+
+//create table
+create table tableName(col_name1,colname2,colName3),
+(colNameDatatype1,colNameDatatype2,colNameDatatype3);
+
+//Declar primary key
+primary key(roll)
+
+//Rename
+Rename Table OldName To New Name;
+
+//Drop
+Drop Table  TableName;
+
+//Insert
+Insert into Table_Name
+values(101,'Rohim','Male',17,4.33,'Noakhali');
+Insert into students_details
+values(101,'Rohim','Male',17,4.33,'Noakhali'),
+	(102,'kohim','Male',18,4.93,'Noakhali');
+
+//select//
+select roll from students_details;//come the full coulaum
+select roll,city from students_details;//come thouse full coulum
+select * from students_details;//come every coulum
+
+//distinct
+select Distinct city from student_details;// it remove duplicate city
+
+limit//
+SELECT * FROM stdunts_details LIMIT 5;
+SELECT * FROM stdunts_details LIMIT 2,5;// 1st 2 ta carba porer 5 ta niba
+
+//order by asending
+SELECT name,Age,Gender
+FROM stdunts_details
+ORDER BY Name;//show 3 col
+SELECT name
+FROM stdunts_details
+ORDER BY Name;//show just name col
+
+//order by desending
+SELECT name,Age,Gender
+FROM stdunts_details
+ORDER BY Name desc;//show 3 col
+SELECT name
+FROM stdunts_details
+ORDER BY Name desc;//show just name col
+
+//where//where is the main conditional stetment in the sql
+select city 
+from students_details
+where gender = 'Female';
+select name,city,gpa 
+from students_details
+where gender = 'Female';
+
+//between
+SELECT ROLL,Name,GPA
+FROM stdunts_details
+WHERE ROLL BETWEEN 102 AND 105;//show 102-105 details
+
+//or
+SELECT ROLL,Name,GPA
+FROM stdunts_details
+WHERE Gender= 'male' or GPA >=3.50;
+
+//and//
+SELECT ROLL,Name,GPA
+FROM stdunts_details
+WHERE Gender= 'male' and GPA >=3.50;
+
+SELECT ROLL,Name,GPA FROM stdunts_details 
+WHERE City='noakhali' and (Gender= 'male' or GPA >=3.50);
+
+//In //it same work like or
+SELECT * FROM stdunts_details WHERE City IN ('Noakhali','dhaka');// noakhali or dakha
+
+
+//not in
+SELECT * FROM stdunts_details 
+WHERE City NOT IN ('Noakhali','dhaka')//without dhaka or noakhali
+
+//like
+SELECT * FROM stdunts_details
+WHERE Name like 's%';//sakil//1st char s
+
+SELECT * FROM stdunts_details
+WHERE Name like '%g';//shanag//last char g
+
+SELECT * FROM stdunts_details WHERE Name like '--u%';//you //3rd letter u
+
+//as
+SELECT ROLL as id, Name as 'first Name' 
+FROM stdunts_details;//at the time of display it chnge the col name roll to id
+
+//constent
+not null, unique,not null+unique=primary key,AUTO_InCREMENT
+
+//create perfect table
+CREATE TABLE teacher(
+id int not null AUTO_INCREMENT,
+    name varchar(15) not null,
+    salary double(10,2),
+    PRIMARY key (id)
+);
+
+//update
+UPDATE teacher 
+set salary = 320000
+WHERE name = 'sakil';
+
+UPDATE teacher 
+set name = 'tamanna'
+WHERE name= 'tahi';
+
+UPDATE teacher 
+set name = 'tamanna'
+WHERE id= 100;
+
+UPDATE teacher 
+set salary = salary+5000 WHERE salary<=10000;//it add 5000 where condition true;
+
+//delete row
+delete from table_name
+where condition;
+
+DELETE from teacher
+WHERE name = 'sakil';
+
+DELETE from teacher
+WHERE id>=103;//this type of condition can delete mutiple row
+
+//upper()
+SELECT upper('i am mynul Isalm');//result: I AM MYNUL ISALM
+
+SELECT upper(city)
+FROM stdunts_details;//upper all city name
+
+SELECT upper(city) as City_newName FROM stdunts_details;
+
+//lower()
+SELECT lower('i am Mynul Isalm');//result: i am mynul msalm
+
+//concat()
+SELECT concat('welcome to ',' my sql');
+
+SELECT concat(name, ' is ', Age,' years old')
+FROM stdunts_details;//Rahim is 18 years old
+
+SELECT concat(name, ' is ', Age,' years old') as 'student year'
+FROM stdunts_details;
+
+//greatest()
+SELECT greatest(10,20,14,2);//result:20
+
+//least()
+SELECT least(2,13,45,6,-1);//resultl:-1
+
+//pow()
+SELECT pow(2,3);//result:8
+
+//log()
+SELECT log(2); result:0.6931471805599453
+SELECT log10(2);result:0.3010299956639812
+
+//TRUNCATE()
+SELECT TRUNCATE(10.23434,2);//result:10.23
+SELECT TRUNCATE (log(2),2);//result:0.69
+
+//rand()
+SELECT rand();//genarate a random number
+
+//exp()
+SELECT EXP(3);//result:20.085536923187668
+
+//Describe
+DESCRIBE teacher;//show all details of teacher(everything with type)
+
+//Aggregate Function
+Avg,count,max,min ,sum;
+
+//count() row
+SELECT COUNT(*)
+FROM stdunts_details;//count all row
+
+//max()
+SELECT MAX(GPA)
+FROM stdunts_details;
+
+//min()
+SELECT Min(GPA)
+FROM stdunts_details;
+
+//sum()//avg();
+SELECT sum(salary), avg(salary) FROM teacher;
+
+SELECT COUNT(*),Max(salary),min(salary),avg(salary)
+FROM teacher;//it is a valid function
+
+//SELECT min(gpa)
+FROM stdunts_details 
+WHERE gender='female';
+//SELECT Roll,Name,age,min(gpa)
+FROM stdunts_details 
+WHERE gender='female';
+//SELECT * ,min(gpa) 
+FROM stdunts_details 
+WHERE gender='female';
+
+//sub_qury
+SELECT *
+FROM teacher
+WHERE salary> (SELECT avg(salary)FROM teacher);
+
+//add a column with alter
+alter table table_name
+add column_name datatype(size);
+
+ALTER TABLE teacher 
+ADD Dept vachar(20);
+
+ALTER TABLE teacher 
+ADD age int(5);
+
+//rename column
+Alter table table_name
+change old_columnNmae newColumn_name datatype(size);
+
+
+Alter table teacher
+change Dept Deperment varchar(20);
+
+//column delete
+Alter table table_Name
+drop column column_name;
+
+ALTER TABLE teacher DROP COLUMN age;
+
+ALTER TABLE teacher DROP COLUMNS age,Deperment;//multiple work
+
+//update commnd
+UPDATE `teacher` SET `Deperment` = 'eee' WHERE `teacher`.`id` = 101; UPDATE `teacher` SET `Deperment` = 'bba' WHERE `teacher`.`id` = 106; UPDATE `teacher` SET `Deperment` = 'english' WHERE `teacher`.`id` = 107; UPDATE `teacher` SET `Deperment` = 'cse' WHERE `teacher`.`id` = 108; UPDATE `teacher` SET `Deperment` = 'eee' WHERE `teacher`.`id` = 109;
+
+
+//Group By Clause
+//creating groups of data
+
+Select column , group_funcition(column)
+from table
+[Where condition]
+[Group By group_by_expression]
+[Order By column]
+
+SELECT Deperment, sum(salary)
+FROM teacher
+GROUP BY (Deperment);
+
+SELECT Deperment, sum(salary) 
+FROM teacher GROUP BY Deperment 
+ORDER BY sum(salary) DESC
+
+
+//truncate table command
+TRUNCATE TABLE stdunts_details;//it work like delete but here stay header
+
+//joining table
+SELECT student_details.roll,reg, name,gender,group2,gpa
+FROM student_details ,result
+WHERE student_details.roll=result.roll;//roll must be same
+
+//join clause
+SELECT std.roll,rs.reg, std.name,std.gender,rs.group2,rs.gpa
+FROM student_details as std,result as rs
+WHERE std.roll=rs.roll;//shortcut
+
+SELECT std.roll,rs.reg,std.name,std.gender,rs.gpa,rs.group2
+FROM student_details as std,result as rs
+WHERE STD.roll=rs.roll;
+
+//inner join
+
+SELECT std.roll,rs.reg,std.name,std.gender,rs.gpa,rs.group2
+
+FROM student_details as std JOIN result as rs
+
+on STD.roll=rs.roll;
+
+SELECT std.roll,rs.reg,std.name,std.gender,rs.gpa,rs.group2
+FROM student_details as std inner JOIN result as rs
+on STD.roll=rs.roll;//inner join and join both are same
+
+//left join
+SELECT std.roll,rs.reg,std.name,std.gender,rs.gpa,rs.group2
+FROM student_details as std left join result as rs
+on STD.roll=rs.roll;//prairity left
+
+//right join
+SELECT std.roll,rs.reg,std.name,std.gender,rs.gpa,rs.group2
+FROM student_details as std right join result as rs
+on STD.roll=rs.roll;//prairity right //if does not match it do not show
+
+//Union
+Select roll,name From sythet_tour
+union 
+Select roll,name from dhaka_tour;//don't show duplicate
+
+//Union all
+Select roll,name From sythet_tour
+union all
+Select roll,name from dhaka_tour;//show duplicate value//faster
+
+//view //view is a vertual table which can access user
+//create view
+CREATE view student_view AS
+SELECT roll,name,gender
+FROM student_details;
+//see the view
+CREATE view student_view AS
+SELECT roll,name,gender
+FROM student_details;
+//SELECT name FROM student_view;
+
+//update view 
+UPDATE student_view
+set name='liya pro'
+where roll=106;
+
+UPDATE student_view
+set name='liya pro'
+where name=liya;
+
+//insert record in view
+INSERT into student_view
+(roll ,name,gender)
+VALUES(120,'Hasina','female'); 
+
+//Delete row
+DELETE FROM student_view 
+WHERE roll =120;
+
+//drop view
+DELETE FROM student_view 
+WHERE roll =120;
+
+
+8888****888888
+//Date and time
+
+//SELECT CURRENT_DATE();//return current_date
+
+//SELECT CURRENT_TIME();
+
+//SELECT now();//show Date+time;
+
+//SELECT ADDDATE('2017-9-5',INTERVAL 5 Day);//add day// result: 10-9-2017
+
+//SELECT ADDDATE('2017-9-5',INTERVAL 5 MOnth);
+
+//SELECT ADDDATE('2017-9-5',INTERVAL 5 year);
+
+//subdate
+
+//SELECT subDATE('2017-9-6',INTERVAL 5 Day);//add day// result: 1-9-2017
+
+//SELECT subDATE('2017-9-5',INTERVAL 5 MOnth);
+
+//SELECT subDATE('2017-9-5',INTERVAL 5 year);
+
+//SELECT makeDate(2017,312);//make date 2017 year 312 day hahaha;
+
+
+//SELECT dayName('2020-5-7')//it return tuesday//like my program given by habib by,birthday
+
+//SELECT MonthName('2020-5-7')//return the month name;
+
+//SELECT yearName('2020-5-7')
+
+
+//SELECT dob,Name, DayName(dob) 
+FROM student_details;//return the dayName for evey dob column

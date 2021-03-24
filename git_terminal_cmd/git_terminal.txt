@@ -1,0 +1,402 @@
+
+  257  sudo apt search git
+  258  sudo apt install git
+  259  git --versiotn
+  260  git --h
+  261  git --help
+  262  git --version
+  263  git-shell
+  264  sudo apt install git-shell
+  265  sudo git-shell
+  266  git config --global user.name "sakil470004"
+  267  git config --global user.email "sk470004@gmail.com"
+  268  git config --list
+  269  nano ~/.gitconfig
+  270  whereis .gitconfig
+  271  nano ~/.gitconfig
+  272  code ~/.bash_profile
+  273  neno ~/.bash_profile
+  274  nano ~/.bash_profile
+  275  git config --list
+  276  git config --global -e
+  277  git config --global core.editor "code"
+  278  git config --global -e
+  279  sudo apt search smartgit
+  280  sudo apt search smart-git
+  281  mold
+  282  meld
+  283  git config --global diff.tool meld
+  284  git config --
+  285  git config --global merge.tool meld
+  286  cd ..
+  287  ls
+  288  cd Videos
+  289  ls
+  290  mkdir sakil
+  291  ls
+  292  rm sakil
+  293  rm -rf sakil
+  294  ls
+  295  git status
+  296  ls
+  297  history
+  298  ls
+  299  mkdir projects
+  300  ls
+  301  cd project
+  302  cd projects
+  303  git init demo
+  304  ls
+  305  cd demo
+  306  ls
+  307  ls -al
+  308  ls
+  309  cd ..
+  310  ls
+  311  rm --hlp
+  312  rm --h
+  313  ls
+  314  rm rf demo
+  315  rm demo
+  316  rm -rf demo
+  317  ls
+  318  git init demo
+  319  ls
+  320  cd demo
+  321  ls
+  322  ls -all
+  323  ls --all
+  324  ls -all
+  325  git status
+  326  code README.md
+  327  ls
+  328  git status
+  329  git add README.md
+  330  git status
+  331  ls
+  332  git commit -m "First file in demo repo"
+  333  ls
+  334  git status
+  335  ls -al
+  336  ls -all
+  337  ip con
+  338  ip a
+  339  sudo neth
+  340  sudo nethogs 
+  341  netho
+  342  git st
+  343  ls -a
+  344  ls --al
+  345  ls --all
+  346  ls -all
+  347  ls -a
+  348  ls -al
+  349  cd .git
+  350  ls
+  351  cd ..
+  352  clear
+  353  ls
+  354  ls -al
+  355  rm -rf .git
+  356  ls
+  357  ls -al
+  358  git status
+  359  ls
+  360  ls -al
+  361  ls --al
+  362  ls --all
+  363  git init .
+  364  ls
+  365  ls -a
+  366  ls -al
+  367  git status
+  368  code LICENSE.md
+  369  git status
+  370  git add .
+  371  git status
+  372  git commit
+  373  git commit "Adding both a Readme and a license file to the repo"
+  374  history
+  375  clear
+  376  git commit 
+  377  git commit -m 
+  378  git commit -m "Adding both a ReadMe and a License file to the repo\"
+  379  git commit -m "Adding both a ReadMe and a License file to the repo"
+  380  git status
+  381  ls
+  382  pwd
+  383  git log
+  384  git show
+  385  git status
+  386  ls
+  387  code RE*
+  388  git status
+  389  git ls-file
+  390  git ls-files
+  391  touch new.file
+  392  ls
+  393  git status
+  394  git ls-files
+  395  rm new.file
+  396  ls
+  397  get status
+  398  git status
+  399  git ls-files
+  400  git commit -am "Updateing README"
+  401  sudo apt-get update
+  402  sudo apt-get upgrde
+  403  sudo apt-get upgrade
+  404  cd ~/demo
+  405  ls
+  406  cd projects
+  407  ls
+  408  cd demo
+  409  ls
+  410  code REA*
+  411  git status
+  412  git add .
+  413  git status
+  414  git reset HEAD README.md
+  415  code RE*
+  416  git status
+  417  get checkout --README.md
+  418  git checkout --README.md
+  419  clear
+  420  git status
+  421  git checkout -- READ*
+  422  ls
+  423  git status
+  424  code RE*
+  425  git log
+  426  git help log
+  427  git log --oneline
+  428  git log --oneline --graph --decorate
+  429  git log --oneline --graph --decorate --all
+  430  clear
+  431  git config --global alias.hist "log --oneline --graph --decorate --all" 
+  432  git config --global --list
+  433  git hist
+  434  git hist --LICENSE.md
+  435  git hist --LI*
+  436  ls
+  437  git hist --LICENSE.md
+  438  git hist
+  439  git status
+  440  clean
+  441  code example.txt
+  442  git add example.txt
+  443  ls
+  444  git ls-files
+  445  git status
+  446  ls
+  447  cd projects/demo
+  448  ls
+  449  git status
+  450  ls
+  451  git commit -m "adding exmple file"
+  452  ls
+  453  git ls-files
+  454  git mv example.txt demo.txt//rename git file
+  455  ls
+  456  git status
+  457  git commit -m "rename example"
+  458  clear
+  459  git rm demo.txt
+  460  ls
+  461  git status
+  462  git commit -m "deleting demo file"
+  463  git status
+  464  pwd
+  465  clear
+  466  ls
+  467  touch myfile.txt
+  468  mv LICENSE.md LICENSE.txt
+  469  ls -l
+  470  ls -all
+  471  git status
+  472  git add -u//refresh git
+  473  git status
+  474  git add -A//refresh all file 
+  475  ls
+  476  git status
+  477  git commit -m "rename and add"
+  478  ls -s
+  479  ls -l
+  480  rm myfile.txt
+  481  ls
+  482  git status
+  483  git add -u
+  484  git commit -m " remove myfile.txt
+  485  "
+  486  code application.log
+  487  ls
+  488  git status
+  489  code .gitignore
+  490  git status
+  491  git add .gitignore
+  492  git commit -m "add ignore file "
+  493  ls
+  494  ls -all
+  495  rm appli*
+  496  ls
+  497  clear
+  498  history
+  499  history --help
+  500  sudo gedit history
+  501  history
+  502  whereis history
+  503  sudo gedit /usr/share/man/man3/history.3readline.gz
+  504  clear
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd Videos
+  509  ls
+  510  mv *song_1.mp4 black_clover_song_01.mp4
+  511  ls
+  512  mv  black_clover_song_01.mp4 /home/s/Videos/kdenlive-renderqueue/
+  513  ks'
+  514  ls
+  515  cd kde*
+  516  ls
+  517  mv black* ..
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 4_3_collision_avoidance_using_linear_probint.cpp -o 4_3_collision_avoidance_using_linear_probint && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"4_3_collision_avoidance_using_linear_probint
+  522  sudo apt update
+  523  history
+
+523  history
+  524  nethogs 
+  525  sudo nethogs
+  526  ip address
+  527  ls
+  528  cd projects/demo
+  529  ls
+  530  git hist
+  531  git diff 1ebb121
+  532  git diff 1ebb121 HEAD
+  533  git difftool 1ebb121 HEAD
+  534  code RE*
+  535  git status
+  536  git deff
+  537  git diff
+  538  git difftool
+  539  git commit -m "update README.md file "
+  540  git status
+  541  git commit -a "updateing readme.md file"
+  542  git status
+  543  history
+  544  git add READ*
+  545  git status
+  546  git commit -m "updateing readme file "
+  547  ls
+  548  git branch
+  549  git staged
+  550  code README.md
+  551  git code README.md
+  552  git status 
+  553  git chekout -b updates
+  554  git chevkout -b updates
+  555  git checkout -b updates
+  556  code READ*
+  557  git status
+  558  git add .
+  559  git commit -m "adding update from branch
+  560  "
+  561  git status
+  562  git hist
+  563  git diff updates master
+  564  git checkout master
+  565  git hist
+  566  git merge updates
+  567  git status
+  568  git hist
+  569  git branch -d updates
+  570  git hist
+  571  git status
+  572  code README.md
+  573  git checkout -b very-bad
+  574  git branch
+  575  git branch -a
+  576  code READ*
+  577  git commit -am "very bad update "
+  578  git hist
+  579  git checkout master
+  580  code READ*
+  581  git commit -am "Casing issues agin"
+  582  git status
+  583  git branch -a
+  584  git merge very-bad
+  585  cat README.md
+  586  git margetool
+  587  git mergetool
+  588  git commit -m "Resolving conflict
+  589  "
+  590  git status
+  591  code .gitignore
+  592  git status
+  593  git commit -am "updateing gitignore file"
+  594  ls
+  595  rm *.orig
+  596  ks
+  597  ls
+  598  git hist
+  599  git tag mytag
+  600  git tag --list\
+  601  git hist
+  602  git tag -d mytag\
+  603  clear
+  604  git tag -a v1.0 -m "Release 1.0"
+  605  git tag --list
+  606  git hist
+  607  git show v1.0
+  608  git status
+  609  code READ*
+  610  git status
+  611  git stash
+  612  git stash list
+  613  git status
+  614  mate LICENSE*
+  615  code LICENSE*
+  616  git status
+  617  git commit -am "updating license file"
+  618  git status
+  619  git stash pop
+  620  code RE*
+  621  git stash list
+  622  git status
+  623  git commit -am "updating readme again "
+  624  clear
+  625  code README*
+  626  git add.
+  627  git add .
+  628  code READ*
+  629  git status
+  630  git hist
+  631  git reset 4f65a12 --soft
+  632  git hist
+  633  git status
+  634  git reset 4ab9dd9 --mixed
+  635  git hist
+  636  git status
+  637  code READ*
+  638  git reset 1ebb121 --hard
+  639  git staus
+  640  git hist
+  641  git log --oneline
+  642  git reflog
+  643  ls
+  644  ls --all
+  645  git reset --hard b75d712
+  646  git log
+  647  cd
+  648  ls
+  649  cd projects/demo
+  650  git hist
+  651  histor
+  652  clear
+  653  history
+s@s-HP-Laptop-15s-du1xxx:~/projects/demo$ 
+

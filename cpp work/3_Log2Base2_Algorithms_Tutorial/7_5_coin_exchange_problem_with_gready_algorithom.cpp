@@ -14,7 +14,7 @@ int findMinCoins(int coins[], int size, int value)
         while (value >= coins[i])
         {
             value -= coins[i];
-            ans[count] = coins[i];
+            ans[count] = coins[i];//just store ans
             count++;
         }
         if (value == 0)

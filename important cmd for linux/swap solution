@@ -1,0 +1,4 @@
+sudo gedit /etc/fstab//go the file and do staff for auto start
+
+# swap was on /dev/sdb3 during installation
+UUID=70acb9c3-1bce-496a-8418-4f8adea90454 none            swap    sw              0       0

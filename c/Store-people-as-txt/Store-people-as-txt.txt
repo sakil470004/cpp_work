@@ -1,0 +1,12 @@
+Entered detail for person :1 
+Name: Sakil
+Id: 832
+Father name: Nayem
+Entered detail for person :2 
+Name: Nayem
+Id: 865
+Father name: Rofiq
+Entered detail for person :1 
+Name: Tanbir
+Id: 323
+Father name: Alamgir

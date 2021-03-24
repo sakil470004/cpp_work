@@ -1,0 +1,695 @@
+
+ s  s-HP-Laptop-15s-du1xxx  ~  history
+    1  sudo apt install git dkms build-essential
+    2  git clone https://github.com/tomaspinho/rtl8821ce.git
+    3  ls
+    4  cd rtl8821ce
+    5  sudo ./dkms-install.sh
+    6  uname -a
+    7  neofetch 
+    8  where is java
+    9  whereis java
+   10  sudo apt update
+   11  wget http://launchpadlibrarian.net/340091846/realpath_8.26-3ubuntu4_all.deb 
+   12  https://github.com/teejee2008/conky-manager/releases/download/v2.4/conky-manager-v2.4-amd64.deb
+   13  wget http://launchpadlibrarian.net/340091846/realpath_8.26-3ubuntu4_all.deb https://github.com/teejee2008/conky-manager/releases/download/v2.4/conky-manager-v2.4-amd64.deb
+   14  sudo apt install conky
+   15  apt --fix-broken install\
+   16  apt --fix-broken install
+   17  sudo apt update
+   18  sudo apt install conky
+   19  sudo apt install  imagemagick
+   20  sudo apt install  imagemagick-6.q16 
+   21  sudo apt install libmagickcore-6.q16-6 
+   22  sudo apt install liblqr-1-0
+   23  apt --fix-broken install
+   24  sudo apt --fix-broken install
+   25  sudo apt dist-upgrade
+   26  sudo apt get upgrade
+   27  sudo apt-get upgrade
+   28  imagemagick
+   29  sudo apt install imagemagick
+   30  sudo apt update
+   31  sudo apt upgrade
+   32  apt --fix-broken install
+   33  sudo apt install  conky-manager
+   34  imagemagick --fix-broken install
+   35  apt imagemagick --fix-broken install
+   36  wget http://launchpadlibrarian.net/340091846/realpath_8.26-3ubuntu4_all.deb https://github.com/teejee2008/conky-manager/releases/download/v2.4/conky-manager-v2.4-amd64.deb
+   37  sudo apt install conky
+   38  sudo apt install imagemagick
+   39  sudo dpkg --configure -a
+   40  conky-manager --configure
+   41  sudo apt-get install -f
+   42  sudo pat update
+   43  sudo apt update
+   44  wget http://launchpadlibrarian.net/340091846/realpath_8.26-3ubuntu4_all.deb https://github.com/teejee2008/conky-manager/releases/download/v2.4/conky-manager-v2.4-amd64.deb
+   45  sudo dpkg -i realpath_8.26-3ubuntu4_all.deb conky-manager-v2.4-amd64.deb
+   46  sudo apt install -f
+   47  sudo apt update
+   48  sudo gedit /etc/fstab
+   49  sudo apt install gedit
+   50  sudo gedit /etc/fstab
+   51  sudo blkid
+   52  xbright [+-=[0-123]]
+   53  man Makefile
+   54  Makefile --help
+   55  sudo bush Makefile
+   56  sudo bush install Makefile
+   57  sudo bush make 
+   58  sudo bash make 
+   59  sudo make install
+   60  xbright [+-=[0-123]]
+   61  xbright +3000
+   62  xbright -3000
+   63  sudo ufw allow kdeconnect
+   64  sudo ufw allow kde
+   65  sudo ufw allow kdeconnect-app
+   66  sudo ufw allow kdeconnect-settings 
+   67  sudo apt-get -y update
+   68  sudo apt-get -y install samba
+   69  sudo mkdir -p /home/share
+   70  sudo chmod 777 /home/share
+   71  sudo vim /etc/samba/smb.conf
+   72  sudo gedit /etc/samba/smb.conf
+   73  sudo apt update
+   74  sudo apt install samba
+   75  whereis samba
+   76  mkdir /home/s/sambashare/
+   77  sudo gedti /etc/samba/smb.conf
+   78  sudo gedit /etc/samba/smb.conf
+   79  sudo service smbd restart
+   80  sudo ufw allow samba
+   81  sudo smbpasswd -a username
+   82  sudo smbpasswd -a sakil
+   83  sudo smbpasswd -a username
+   84  sudo smbpasswd -a sakil
+   85  useradd sakil
+   86  sudo useradd sakil
+   87  smbpasswd -a user1
+   88  smbpasswd -a sakil
+   89  sudo smbpasswd -a sakil
+   90  sudo smb restart
+   91  sudo smbd restart
+   92  ip address
+   93  sudo gedti /etc/samba/smb.conf
+   94  sudo gedit /etc/samba/smb.conf
+   95  whereis .Trash
+   96  sudo gedit /etc/samba/smb.conf
+   97  sudo apt update
+   98  whereis c++
+   99  whereis cpp
+  100  whereis java
+  101  whereis pythone
+  102  whereis pytnoe
+  103  cd "/home/workTime/cpp work/2_Shibaji_paul/" && g++ 3_taking_input.cpp -o 3_taking_input && "/home/workTime/cpp work/2_Shibaji_paul/"3_taking_input
+  104  sudo apt install 
+  105  sudo apt install gimp
+  106  cd "/home/workTime/cpp work/1_codeforces/" && g++ test_donut.cpp -o test_donut && "/home/workTime/cpp work/1_codeforces/"test_donut
+  107  ip address
+  108  sudo gedit /etc/fstab
+  109  sudo apt install teamviewer
+  110  sudo apt update
+  111  sudo apt install snapd
+  112  sudo rm /etc/apt/preferences.d/nosnap.pref
+  113  sudo apt install 0ad
+  114  sudo apt-get update
+  115  sudo apt-get upgrade
+  116  neofetch 
+  117  cd "/home/workTime/cpp work/2_Shibaji_paul/" && g++ 19_we_coan_write_a_vector_of_our_own_idea.cpp -o 19_we_coan_write_a_vector_of_our_own_idea && "/home/workTime/cpp work/2_Shibaji_paul/"19_we_coan_write_a_vector_of_our_own_idea
+  118  sudo apt install kazam
+  119  neofetch 
+  120  conky
+  121  conky2
+  122  conky-manager
+  123  cd && wget -O .start-conky http://drive.noobslab.com/data/conky/start-conky
+  124  Terminal Command:
+  125  sudo apt-get install conky conky-all
+  126  chmod +x .start-conky
+  127  cd && wget -O 123-noobslab-wlanb.zip http://drive.noobslab.com/data/conky/123-conky/123conky-black-wlan.zip
+  128  unzip 123-noobslab-wlanb.zip && rm 123-noobslab-wlanb.zip
+  129  neofetch
+  130  cd "/home/workTime/cpp work/2_Shibaji_paul/" && g++ 19_we_coan_write_a_vector_of_our_own_idea.cpp -o 19_we_coan_write_a_vector_of_our_own_idea && "/home/workTime/cpp work/2_Shibaji_paul/"19_we_coan_write_a_vector_of_our_own_idea
+  131  cd "/home/workTime/cpp work/2_Shibaji_paul/" && g++ 20_Function_temlate_compare.cpp -o 20_Function_temlate_compare && "/home/workTime/cpp work/2_Shibaji_paul/"20_Function_temlate_compare
+  132  cd "/home/workTime/cpp work/2_Shibaji_paul/" && g++ 20_class_template.cpp -o 20_class_template && "/home/workTime/cpp work/2_Shibaji_paul/"20_class_template
+  133  cd "/home/workTime/cpp work/2_Shibaji_paul/" && g++ 20_our_vector_with_tempet.cpp -o 20_our_vector_with_tempet && "/home/workTime/cpp work/2_Shibaji_paul/"20_our_vector_with_tempet
+  134  sudo apt update
+  135  sudo apt search stacer
+  136  sudo apt install stacer
+  137  sudo apt S stacher
+  138  sudo apt search stacher
+  139  sudo apt search kazam
+  140  sudo apt dist-upgrade
+  141  neofetch 
+  142  sudo apt search ibus
+  143  sudo apt search ibus-avro
+  144  sudo apt install ibus-avro
+  145  ibus
+  146  ibus-daemon
+  147  firefox
+  148  vscode
+  149  code
+  150  sudo apt-get update
+  151  sudo apt-get upgrade
+  152  whereis sex
+  153  clear
+  154  whereis anime
+  155  cd "/home/workTime/cpp work/1_codeforces/" && g++ 489C_given_length_and_sum_of_digits.cpp -o 489C_given_length_and_sum_of_digits && "/home/workTime/cpp work/1_codeforces/"489C_given_length_and_sum_of_digits
+  156  xfce4-screenshooter
+  157  xfce4-screenshooter -h
+  158  neofetch 
+  159  cd "/home/workTime/cpp work/" && g++ 1_TEST_subject.cpp -o 1_TEST_subject && "/home/workTime/cpp work/"1_TEST_subject
+  160  cd "/home/workTime/cpp work/1_codeforces/" && g++ 489C_given_length_and_sum_of_digits.cpp -o 489C_given_length_and_sum_of_digits && "/home/workTime/cpp work/1_codeforces/"489C_given_length_and_sum_of_digits
+  161  cd "/home/workTime/cpp work/" && g++ 1_TEST_subject.cpp -o 1_TEST_subject && "/home/workTime/cpp work/"1_TEST_subject
+  162  cd "/home/workTime/cpp work/1_codeforces/" && g++ 489C_given_length_and_sum_of_digits.cpp -o 489C_given_length_and_sum_of_digits && "/home/workTime/cpp work/1_codeforces/"489C_given_length_and_sum_of_digits
+  163  sudo apt update
+  164  sudo apt upgrade
+  165  xfce4-taskmanager
+  166  gnome
+  167  gnome-system-monitor
+  168  sudo apt update
+  169  sudo apt upgrade
+  170  sudo apt autoremove
+  171  apt --help
+  172  sudo apt version
+  173  sudo apt --version
+  174  sudo add-apt-repository ppa:ozmartian/apps
+  175  sudo apt-get install vidcutter
+  176  sudo flatpak install vidcutter 
+  177  sudo apt update
+  178  sudo apt upgrade
+  179  sudo flatpak install vidcutter 
+  180  neofetch 
+  181  sudo ./idea.sh
+  182  sudo .idea.sh
+  183  sudo ./idea.sh
+  184  sudo apt-get update
+  185  sudo apt-get upgrade
+  186  neofetch 
+  187  sudo apt update
+  188  sudo gedit /etc/fstab
+  189  neofetch 
+  190  sudo dmidecode --type 17
+  191  sudo apt-get update
+  192  sudo apt-get upgrade
+  193  cd "/home/workTime/cpp work/" && g++ 21_inheritance_pactical.cpp -o 21_inheritance_pactical && "/home/workTime/cpp work/"21_inheritance_pactical
+  194  cd "/home/workTime/cpp work/" && g++ 21_inheritance_abustruct.cpp -o 21_inheritance_abustruct && "/home/workTime/cpp work/"21_inheritance_abustruct
+  195  vboxservice
+  196  sudo systemctl enable vboxservice
+  197  reboot
+  198  sudo rm ~/"VirtualBox VMs" -Rf
+  199  sudo rm ~/.config/VirtualBox/ -Rf
+  200  sudo apt-get remove --purge virtualbox 
+  201  sudo apt-get remove virtualbox-\*
+  202  neofetch 
+  203  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 1_Binary Search - Implementation, Time & Space complexity.cpp -o 1_Binary Search - Implementation, Time & Space complexity && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"1_Binary Search - Implementation, Time & Space complexity
+  204  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/1_binary_bearch _ implementation_time_space_complexity.\" && g++ cpp -o 1_binary_bearch _ implementation_time_space_complexity && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/1_binary_bearch _ implementation_time_space_complexity.\"1_binary_bearch _ implementation_time_space_complexity
+  205  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 1_binary_bearch _ implementation_time_space_complexity.cpp -o 1_binary_bearch _ implementation_time_space_complexity && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"1_binary_bearch _ implementation_time_space_complexity
+  206  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 1_binary_bearch_implementation_time_space_complexity.cpp -o 1_binary_bearch_implementation_time_space_complexity && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"1_binary_bearch_implementation_time_space_complexity
+  207  sudo apt-get update
+  208  sudo apt-get upgrade
+  209  sudo apt update
+  210  sudo apt upgrade
+  211  blkid
+  212  sudo apt update
+  213  sudo apt upgrade
+  214  firefox
+  215  cd "/home/workTime/cpp work/2_Shibaji_paul/" && g++ 21_inheritance_pactical.cpp -o 21_inheritance_pactical && "/home/workTime/cpp work/2_Shibaji_paul/"21_inheritance_pactical
+  216  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ tempCodeRunnerFile.h -o tempCodeRunnerFile && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"tempCodeRunnerFile
+  217  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 2_breadth_first_search.cpp -o 2_breadth_first_search && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"2_breadth_first_search
+  218  ip address
+  219  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 2_breadth_first_search.cpp -o 2_breadth_first_search && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"2_breadth_first_search
+  220  sudo apt autoremove
+  221  adb
+  222  sudo apt update
+  223  sudo apt upgrade
+  224  sudo apt-get updart
+  225  sudo apt-get update
+  226  sudo apt-get upgrade
+  227  git
+  228  sudo apt install git
+  229  ip -a
+  230  ip a
+  231  ip address
+  232  sudo apt search vlc-skin
+  233  sudo apt search vlc
+  234  sudo apt install vlc-plugin-skins2
+  235  whereis vlc-plugin-skins2
+  236  whereis vlc-plugin
+  237  whereis vlc
+  238  vlc
+  239  whereis vlc-skins2
+  240  vlc
+  241  vlc_copy
+  242  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 3_3_bubble_sort.cpp -o 3_3_bubble_sort && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"3_3_bubble_sort
+  243  blkid
+  244  sudo blkid
+  245  system-monitor
+  246  monitor
+  247  system-monitro
+  248  system-monitor
+  249  gnome-system-monitor
+  250  sudo apt update
+  251  sudo apt upgrade
+  252  killall firefox
+  253  mine
+  254  sudo apt remove minecraft-launcher 
+  255  sudo apt install nethogs
+  256  sudo nethogs
+  257  sudo apt search git
+  258  sudo apt install git
+  259  git --versiotn
+  260  git --h
+  261  git --help
+  262  git --version
+  263  git-shell
+  264  sudo apt install git-shell
+  265  sudo git-shell
+  266  git config --global user.name "sakil470004"
+  267  git config --global user.email "sk470004@gmail.com"
+  268  git config --list
+  269  nano ~/.gitconfig
+  270  whereis .gitconfig
+  271  nano ~/.gitconfig
+  272  code ~/.bash_profile
+  273  neno ~/.bash_profile
+  274  nano ~/.bash_profile
+  275  git config --list
+  276  git config --global -e
+  277  git config --global core.editor "code"
+  278  git config --global -e
+  279  sudo apt search smartgit
+  280  sudo apt search smart-git
+  281  mold
+  282  meld
+  283  git config --global diff.tool meld
+  284  git config --
+  285  git config --global merge.tool meld
+  286  cd ..
+  287  ls
+  288  cd Videos
+  289  ls
+  290  mkdir sakil
+  291  ls
+  292  rm sakil
+  293  rm -rf sakil
+  294  ls
+  295  git status
+  296  ls
+  297  history
+  298  ls
+  299  mkdir projects
+  300  ls
+  301  cd project
+  302  cd projects
+  303  git init demo
+  304  ls
+  305  cd demo
+  306  ls
+  307  ls -al
+  308  ls
+  309  cd ..
+  310  ls
+  311  rm --hlp
+  312  rm --h
+  313  ls
+  314  rm rf demo
+  315  rm demo
+  316  rm -rf demo
+  317  ls
+  318  git init demo
+  319  ls
+  320  cd demo
+  321  ls
+  322  ls -all
+  323  ls --all
+  324  ls -all
+  325  git status
+  326  code README.md
+  327  ls
+  328  git status
+  329  git add README.md
+  330  git status
+  331  ls
+  332  git commit -m "First file in demo repo"
+  333  ls
+  334  git status
+  335  ls -al
+  336  ls -all
+  337  ip con
+  338  ip a
+  339  sudo neth
+  340  sudo nethogs 
+  341  netho
+  342  git st
+  343  ls -a
+  344  ls --al
+  345  ls --all
+  346  ls -all
+  347  ls -a
+  348  ls -al
+  349  cd .git
+  350  ls
+  351  cd ..
+  352  clear
+  353  ls
+  354  ls -al
+  355  rm -rf .git
+  356  ls
+  357  ls -al
+  358  git status
+  359  ls
+  360  ls -al
+  361  ls --al
+  362  ls --all
+  363  git init .
+  364  ls
+  365  ls -a
+  366  ls -al
+  367  git status
+  368  code LICENSE.md
+  369  git status
+  370  git add .
+  371  git status
+  372  git commit
+  373  git commit "Adding both a Readme and a license file to the repo"
+  374  history
+  375  clear
+  376  git commit 
+  377  git commit -m 
+  378  git commit -m "Adding both a ReadMe and a License file to the repo\"
+  379  git commit -m "Adding both a ReadMe and a License file to the repo"
+  380  git status
+  381  ls
+  382  pwd
+  383  git log
+  384  git show
+  385  git status
+  386  ls
+  387  code RE*
+  388  git status
+  389  git ls-file
+  390  git ls-files
+  391  touch new.file
+  392  ls
+  393  git status
+  394  git ls-files
+  395  rm new.file
+  396  ls
+  397  get status
+  398  git status
+  399  git ls-files
+  400  git commit -am "Updateing README"
+  401  sudo apt-get update
+  402  sudo apt-get upgrde
+  403  sudo apt-get upgrade
+  404  cd ~/demo
+  405  ls
+  406  cd projects
+  407  ls
+  408  cd demo
+  409  ls
+  410  code REA*
+  411  git status
+  412  git add .
+  413  git status
+  414  git reset HEAD README.md
+  415  code RE*
+  416  git status
+  417  get checkout --README.md
+  418  git checkout --README.md
+  419  clear
+  420  git status
+  421  git checkout -- READ*
+  422  ls
+  423  git status
+  424  code RE*
+  425  git log
+  426  git help log
+  427  git log --oneline
+  428  git log --oneline --graph --decorate
+  429  git log --oneline --graph --decorate --all
+  430  clear
+  431  git config --global alias.hist "log --oneline --graph --decorate --all" 
+  432  git config --global --list
+  433  git hist
+  434  git hist --LICENSE.md
+  435  git hist --LI*
+  436  ls
+  437  git hist --LICENSE.md
+  438  git hist
+  439  git status
+  440  clean
+  441  code example.txt
+  442  git add example.txt
+  443  ls
+  444  git ls-files
+  445  git status
+  446  ls
+  447  cd projects/demo
+  448  ls
+  449  git status
+  450  ls
+  451  git commit -m "adding exmple file"
+  452  ls
+  453  git ls-files
+  454  git mv example.txt demo.txt
+  455  ls
+  456  git status
+  457  git commit -m "rename example"
+  458  clear
+  459  git rm demo.txt
+  460  ls
+  461  git status
+  462  git commit -m "deleting demo file"
+  463  git status
+  464  pwd
+  465  clear
+  466  ls
+  467  touch myfile.txt
+  468  mv LICENSE.md LICENSE.txt
+  469  ls -l
+  470  ls -all
+  471  git status
+  472  git add -u
+  473  git status
+  474  git add -A
+  475  ls
+  476  git status
+  477  git commit -m "rename and add"
+  478  ls -s
+  479  ls -l
+  480  rm myfile.txt
+  481  ls
+  482  git status
+  483  git add -u
+  484  git commit -m " remove myfile.txt
+  485  "
+  486  code application.log
+  487  ls
+  488  git status
+  489  code .gitignore
+  490  git status
+  491  git add .gitignore
+  492  git commit -m "add ignore file "
+  493  ls
+  494  ls -all
+  495  rm appli*
+  496  ls
+  497  clear
+  498  history
+  499  history --help
+  500  sudo gedit history
+  501  history
+  502  whereis history
+  503  sudo gedit /usr/share/man/man3/history.3readline.gz
+  504  clear
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd Videos
+  509  ls
+  510  mv *song_1.mp4 black_clover_song_01.mp4
+  511  ls
+  512  mv  black_clover_song_01.mp4 /home/s/Videos/kdenlive-renderqueue/
+  513  ks'
+  514  ls
+  515  cd kde*
+  516  ls
+  517  mv black* ..
+  518  ls
+  519  cd ..
+  520  ls
+  521  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 4_3_collision_avoidance_using_linear_probint.cpp -o 4_3_collision_avoidance_using_linear_probint && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"4_3_collision_avoidance_using_linear_probint
+  522  sudo apt update
+  523  history
+  524  nethogs 
+  525  sudo nethogs
+  526  ip address
+  527  ls
+  528  cd projects/demo
+  529  ls
+  530  git hist
+  531  git diff 1ebb121
+  532  git diff 1ebb121 HEAD
+  533  git difftool 1ebb121 HEAD
+  534  code RE*
+  535  git status
+  536  git deff
+  537  git diff
+  538  git difftool
+  539  git commit -m "update README.md file "
+  540  git status
+  541  git commit -a "updateing readme.md file"
+  542  git status
+  543  history
+  544  git add READ*
+  545  git status
+  546  git commit -m "updateing readme file "
+  547  ls
+  548  git branch
+  549  git staged
+  550  code README.md
+  551  git code README.md
+  552  git status 
+  553  git chekout -b updates
+  554  git chevkout -b updates
+  555  git checkout -b updates
+  556  code READ*
+  557  git status
+  558  git add .
+  559  git commit -m "adding update from branch
+  560  "
+  561  git status
+  562  git hist
+  563  git diff updates master
+  564  git checkout master
+  565  git hist
+  566  git merge updates
+  567  git status
+  568  git hist
+  569  git branch -d updates
+  570  git hist
+  571  git status
+  572  code README.md
+  573  git checkout -b very-bad
+  574  git branch
+  575  git branch -a
+  576  code READ*
+  577  git commit -am "very bad update "
+  578  git hist
+  579  git checkout master
+  580  code READ*
+  581  git commit -am "Casing issues agin"
+  582  git status
+  583  git branch -a
+  584  git merge very-bad
+  585  cat README.md
+  586  git margetool
+  587  git mergetool
+  588  git commit -m "Resolving conflict
+  589  "
+  590  git status
+  591  code .gitignore
+  592  git status
+  593  git commit -am "updateing gitignore file"
+  594  ls
+  595  rm *.orig
+  596  ks
+  597  ls
+  598  git hist
+  599  git tag mytag
+  600  git tag --list\
+  601  git hist
+  602  git tag -d mytag\
+  603  clear
+  604  git tag -a v1.0 -m "Release 1.0"
+  605  git tag --list
+  606  git hist
+  607  git show v1.0
+  608  git status
+  609  code READ*
+  610  git status
+  611  git stash
+  612  git stash list
+  613  git status
+  614  mate LICENSE*
+  615  code LICENSE*
+  616  git status
+  617  git commit -am "updating license file"
+  618  git status
+  619  git stash pop
+  620  code RE*
+  621  git stash list
+  622  git status
+  623  git commit -am "updating readme again "
+  624  clear
+  625  code README*
+  626  git add.
+  627  git add .
+  628  code READ*
+  629  git status
+  630  git hist
+  631  git reset 4f65a12 --soft
+  632  git hist
+  633  git status
+  634  git reset 4ab9dd9 --mixed
+  635  git hist
+  636  git status
+  637  code READ*
+  638  git reset 1ebb121 --hard
+  639  git staus
+  640  git hist
+  641  git log --oneline
+  642  git reflog
+  643  ls
+  644  ls --all
+  645  git reset --hard b75d712
+  646  git log
+  647  cd
+  648  ls
+  649  cd projects/demo
+  650  git hist
+  651  histor
+  652  clear
+  653  history
+  654  sudo gedit /root/.bashrc
+  655  exit
+  656  cka
+  657  ckatrix
+  658  sudo apt search ckatrix
+  659  sudo apt install ckatrix
+  660  sudo apt install fonts-powerline
+  661  firefox https://raw.githubusercontent.com/ChrisTitusTech/scripts/master/fancy-bash-promt.sh
+  662  sudo su
+  663  sudo apt update
+  664  sudo apt upgrade
+  665  ls
+  666  cd Download
+  667  cd Downloads
+  668  ls
+  669  sudo su
+  670  ls
+  671  cd  ..
+  672  ls
+  673  ls -al
+  674  sudo gedit .bashrc
+  675  ls
+  676  cd sakil
+  677  cd projects/demo
+  678  ls
+  679  git status
+  680  ls
+  681  cd ..
+  682  su -
+  683  sudo su
+  684  exit
+  685  sudo su
+  686  neofetch
+  687  exit
+  688  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 5_4_depth_frist_search_dfs.cpp -o 5_4_depth_frist_search_dfs && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"5_4_depth_frist_search_dfs
+  689  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 2_breadth_first_search.cpp -o 2_breadth_first_search && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"2_breadth_first_search
+  690  sudo apt-get install build-essential git
+  691  history
+
+ s  s-HP-Laptop-15s-du1xxx  ~  
