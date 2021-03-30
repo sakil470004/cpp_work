@@ -1,0 +1,309 @@
+s@s-VirtualBox:~$ histor
+
+Command 'histor' not found, did you mean:
+
+  command 'listor' from deb emboss (6.6.0+dfsg-7ubuntu2)
+
+Try: sudo apt install <deb name>
+
+s@s-VirtualBox:~$ history
+    1  history
+    2  exit
+    3  echo $path
+    4  echo $PATH
+    5  which cal
+    6  where echo
+    7  which echo
+    8  date
+    9  date -u
+   10  date --universal
+   11  echo man
+   12  man echo
+   13  man -k which
+   14  man  which
+   15  which date cal]
+   16  which date cal
+   17  clr
+   18  clear
+   19  slefdj
+   20  which -a date
+   21  which -a date cal
+   22  man  -k "files"
+   23  man  -k "list dir"
+   24  man   "list dir"
+   25  man  -k "list dir"
+   26  ls -l
+   27  ls -al
+   28  ls -lh
+   29  ls -l -h
+   30  ls -l --human-readable 
+   31  ls -h
+   32  ls -lh
+   33  help cd
+   34  help which
+   35  where --h
+   36  where -h
+   37  whereis -help
+   38  which -h
+   39  which -help\
+   40  cat date
+   41  cat man date
+   42  cat
+   43  cal 12 2017
+   44  cal 3 2021
+   45  cal 4 1999
+   46  cal 4 2000
+   47  cat 1> output.txt
+   48  ls
+   49  cat output.txt 
+   50  cat >output.txt 
+   51  cat output.txt 
+   52  cat >>linux is amazing
+   53  cat >> linux is amazing
+   54  cat >> output.txt 
+   55  ls
+   56  cat output.txt 
+   57  cat -k bla
+   58  cat -k bla 2> error.txt
+   59  cat error.txt 
+   60  cat -k bla 2> error.txt
+   61  cat error.txt 
+   62  cat -k bla 2>> error.txt
+   63  cat error.txt 
+   64  cat -k bla > error.txt
+   65  cat -k bla 2> error.txt
+   66  cat error.txt 
+   67  cat error.txt 1> hello.txt
+   68  cat hello.txt 
+   69  cat output.txt > hello.txt
+   70  cat hello.txt 
+   71  tty
+   72  cat output.txt > /dev/pts/1
+   73  cat date
+   74  date > hello.txt
+   75  cat hello.txt
+   76  cut <date.txt --delimiter " " --fields 1
+   77  cut <hello.txt --delimiter " " --fields 1
+   78  cut <hello.txt --delimiter " " --fields 2
+   79  cut <hello.txt --delimiter " " --fields 3
+   80  date }
+   81  date | cut --delimiter " " --fields 1
+   82  date | cut --delimiter " " --fields 5
+   83  date | cut --delimiter " " --fields 1>today.txt
+   84  date | cut --delimiter " " --fields 1 >today.txt
+   85  cat today.txt 
+   86  less
+   87  date | tree fulldate.txt | cut --delimiter="
+   88   " --field=1
+   89  date | tree fulldate.txt | cut --delimiter=" " --field=1
+   90  date | tee fulldate.txt | cut --delimiter=" " --field=1
+   91  cat fulldate.txt 
+   92  date | tee fulldate.txt | cut --delimiter=" " --field=1 > today.txt 
+   93  cat fulldate.txt 
+   94  cat today.txt 
+   95  date| echo
+   96  echo hello
+   97  date | xargs echo
+   98  date | xargs echo "sakil"
+   99  date | xargs echo "sakil" | cut > today.txt 
+  100  date | xargs echo "sakil" | cat > today.txt 
+  101  cat today.txt 
+  102  cat "today.txt \n date.txt"  > del.txt
+  103  cat > del.txt
+  104  cat del.txt
+  105  cat del.txt | rm
+  106  cat del.txt |xargs  rm
+  107  ls
+  108  cat >del.txt
+  109  cat del.txt 
+  110  cat del
+  111  cat del.txt | rm
+  112  cat del.txt | xargs rm
+  113  cat del.txt | xargs rm -rf
+  114  ls
+  115  cat >del.txt
+  116  cat del.txt | xargs rm -rf
+  117  ls
+  118  sudo apt install gedit
+  119  gedit .bash_aliases
+  120  tty
+  121  dir
+  122  ls
+  123  update
+  124  upgrade
+  125  getdate 
+  126  cat fulldate.txt 
+  127  cat shortdate.txt 
+  128  cal -A 1 -B 1
+  129  get date
+  130  getdate
+  131  cat fulldate.txt 
+  132  cat shortdate.txt 
+  133  ls
+  134  gedit .bash_aliases 
+  135  gedit .bash_aliases
+  136  xargs cal -A 1 -B 1  >  /home/s/thing.txt
+  137  cat thing.txt 
+  138  echo "12 2017" |  xargs cal -A 1 -B 1  >  /home/s/thing.txt
+  139  cat thing.txt 
+  140  calmagic
+  141  cat thing
+  142  cat thing.txt
+  143  echo "12 2017" "
+  144  echo "12 2017"| calmagic
+  145  echo "12 2017" | calmagic
+  146  gedit .bash_aliases 
+  147  echo "12 2017" | calmagic
+  148  gedit .bash_aliases 
+  149  calmagic 
+  150  echo "12 2017" | calmagic
+  151  cat thing.txt 
+  152  echo "-y" | calmagic
+  153  cat thing.txt
+  154  gedit .bash_aliases 
+  155  calshow 
+  156  x
+  157  calmagic --help
+  158  camagic -h
+  159  calmagic -h
+  160  gedit .bash_aliases 
+  161  pws
+  162  pwg
+  163  pwd
+  164  path
+  165  path-dir
+  166  cd
+  167  ls
+  168  ls -al
+  169  gedit .bash_aliases
+  170  pathchk 
+  171  path-dir
+  172  tyt
+  173  thy
+  174  tty
+  175  p
+  176  path-dir
+  177  ls
+  178  ls -F
+  179  echo "hello" >file.txt
+  180  cat file.txt 
+  181  ls -F >list.txt
+  182  cat list.txt
+  183  ls -lh
+  184  cd ~/Downloads/
+  185  exit
+  186  sudo nano our_script.sh
+  187  cd Desktop/
+  188  cp ../our_script.sh  .
+  189  rm *.txt
+  190  rm -rf skail*
+  191  nano our_script.sh 
+  192  file our_script.sh 
+  193  rm -rf hay* pro* *.tar
+  194  file our_script.sh 
+  195  nano our_script.sh 
+  196  cat our_script.sh 
+  197  sudo bash our_script.sh 
+  198  rm file*
+  199  rm -rf file*
+  200  bash our_script.sh 
+  201  nano backup.sh
+  202  which bash
+  203  file backup.sh 
+  204  nano backup.sh
+  205  bash backup.sh 
+  206  nano backup.sh
+  207  cat backup.
+  208  cat backup.sh
+  209  bash backup.
+  210  bash backup.sh
+  211  nano backup.sh
+  212  cd ..
+  213  neno .bashrc
+  214  nano .bashrc
+  215  pwd
+  216  echo $PATH
+  217  mkdir bit
+  218  rm -rf bit
+  219  mkdir bin
+  220  mv ~/Desktop/backup.sh ~/bin/
+  221  cd bin 
+  222  ls
+  223  mv backup.sh backup
+  224  chmod +x backup 
+  225  ls
+  226  backup
+  227  nano .bashrc
+  228  rm ~/Desktop/backup.tar.gz 
+  229  backup
+  230  bin/backup 
+  231  crontab -e
+  232  date
+  233  crontab -e
+  234  where is crontab
+  235  whereis crontab
+  236  crontab -e
+  237  cat crontab
+  238  sudo gedit crontab -e
+  239  sudo 2 crontab -e
+  240  crontab -e
+  241  cd  /tmp/crontab.dB83R8/crontab 
+  242  cd  /tmp/crontab.dB83R8/
+  243  cd  /tmp/
+  244  ls
+  245  ls -hl
+  246  ls -al
+  247  cd Desktop/
+  248  mkdir linux
+  249  uname -o
+  250  uname 
+  251  uname -a
+  252  sudo apt-get install gcc
+  253  sudo apt-get install gcc+
+  254  cd Desktop/
+  255  mkdir install_program
+  256  cd install_program/
+  257  bash configure
+  258  sudo apt-get install make
+  259  ls
+  260  make
+  261  sudo make install
+  262  history
+  263  uname -a
+  264  uname -m
+  265  apt-cache search docx
+  266  xeyes
+  267  man xeyes
+  268  sudo apt-get install dpkg-dev
+  269  cd ..
+  270  cd install_program/
+  271  sudo apt-get source kazam
+  272  ls
+  273  cd kazam-1.4.5/
+  274  ls
+  275  cd bin
+  276  ls
+  277  bash kazam
+  278  nano /etc/apt/sources.list
+  279  nano /etc/apt/sources.list.d
+  280  sudo apt-get kazam
+  281  sudo apt-get install kazam
+  282  sudo apt-get purge kazam
+  283  sudo apt-get autoremove
+  284  cd /var/cache/apt/archives/
+  285  ls
+  286  ls -lh
+  287  cd ~/home
+  288  cd ../../..
+  289  cd
+  290  sudo apt-get clean
+  291  cd /var/cache/apt/archives/
+  292  ls
+  293  cd
+  294  sudo apt-get autoclean
+  295  history
+  296  clr
+  297  clear
+  298  histor
+  299  history
+s@s-VirtualBox:~$ 
