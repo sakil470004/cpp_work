@@ -1,0 +1,13 @@
+
+file can be recoverd But it is not gerantee that file is not fine. Recover as fast as possible
+
+//need test disk
+sudo apt install testdisk
+
+//recovered file are mainly locked to unlocd file
+ sudo chown -R "username" "Dirtory"
+example:sudo chown -R "s" "/home/s/Desktop/home/"
+
+
+
+
