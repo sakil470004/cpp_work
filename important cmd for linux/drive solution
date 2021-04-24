@@ -2,3 +2,9 @@ drive 2; read write able
 defaults,nodev,nosuid,uid=1000,gid=1000,uhelper=udisks2
 drive 3; only read
 defaults,nls=utf8,umask=0222
+
+
+///for give ext4 write permission
+chown username /media/Desired-UUID
+find uuid use blkid
+
