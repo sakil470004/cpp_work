@@ -306,4 +306,4 @@ s@s-VirtualBox:~$ history
   297  clear
   298  histor
   299  history
-s@s-VirtualBox:~$ 
+  300 rm -rf ./{5..32}*/*.srt
