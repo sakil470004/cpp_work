@@ -1,0 +1,25 @@
+*{margin:0;padding:0;}
+body{
+  background: black;
+
+}
+.test-form{
+  width:450px;
+  margin:100px auto ;
+  height:300px;
+  background: white;
+
+
+
+}
+.test-form input{
+width:250px;
+height:20px;
+margin: 0 auto;
+}
+
+.test-form button{
+  width:250px;
+  height:20px;
+  margin: 0 auto;
+}

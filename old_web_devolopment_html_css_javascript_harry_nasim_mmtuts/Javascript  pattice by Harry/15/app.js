@@ -1,0 +1,14 @@
+let today = new Date();
+// console.log(today);
+let otherDate = new Date("8-4-2003 04:54:08");
+// console.log(otherDate);
+let a ;
+a = otherDate.getDay();
+a = otherDate.getDate();
+a = otherDate.getMinutes();
+a = otherDate.getSeconds();
+a = otherDate.getHours();
+console.log(a);
+otherDate.setDate(23);
+otherDate.setFullYear(2000);
+console.log(otherDate);

@@ -1,0 +1,49 @@
+@font-face{
+	font-family:sakil;
+	src:url(../font/IndieFlower-Regular.woff);
+}
+
+
+#list li{display:inline-block;}
+#manu{width:100%;height:10px;padding: 33px 0px;margin-bottom:15px;display:inline-block;background: #c4c5ff;}
+#list li a{padding:10px;margin-top:20px;border:3px solid green;}
+#manu div{width:40%;float:right;}
+*{margin:0;padding:0;}
+body{line-height: 20px;background:f7f7f7;font-family:sakil;}
+#div-main{width: 355px;
+    background: #668e7d2e;
+    padding: 32px;
+    display: inline-block;
+    margin: 13px;
+    transition: 1s all;
+    animation-name: zoom;
+    animation-duration: 1s;
+}
+#div-main:hover{cursor:pointer;transform:scale(0.8);background:white;}
+@keyframes zoom{
+from{transform:scale(0.5)rotate(360deg)}
+to{transform:scale(1)rotate(0deg)}
+}
+
+
+#left-img{width:30%;}
+#left-img img{width:75%;float:left;margin:auto;background: transparent;}
+
+#right-contant{width:70%;float:right;}
+#right-contant p{text-align:center;}
+#right-contant h3{text-align:center;}
+#main{display:inline-block;text-align:center;width: 100%;background: #365baf38;}
+#main h2{margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 34px;}
+
+#about-us div img{width: 80%;text-align: center;}
+
+#about-us div p{width:40%;}
+#about-us{display:inline-block;padding: 35px;}
+#left-img2{width:50%;float:left;margin:auto;}
+#right-contant2{width:50%;float:right;margin:auto;font-size: 28px;line-height: 39px;color: #000000bd;}
+#about-us h1{width:100%;text-align:center;margin-bottom: 28px;font-size: 33px;color: #366aca;}
+#right-contant2 h3{text-align:center;}

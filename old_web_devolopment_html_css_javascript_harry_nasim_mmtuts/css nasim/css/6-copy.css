@@ -1,0 +1,40 @@
+@font-face{
+	font-family:sakil;
+	src:url(../font/IndieFlower-Regular.woff);
+	
+	
+}
+#list li{
+	display:inline;
+    
+}
+body{background-image:url(../image/5.jpg);background-repeat:no-repeat;background-size:cover;
+position:absolute;
+	left:200px;
+	font-family:sakil;}
+#c3{color:white;
+	background:red;
+	
+}
+#mytable thead{
+	color:white;
+	background:red;	
+	
+}
+#mytable {border-collapse:collapse;}
+#sakil{
+	border:3px solid red;
+	font-size:30px;
+	width:300px;
+	text-align:center;
+	text-decoration:line-through;
+	font-weight:bold;
+	position:absolute;
+	right:200px;
+}
+div h1{
+	width:300px;
+	border:3px solid black;
+	
+}
+div h1 img{ max-width:100%;}

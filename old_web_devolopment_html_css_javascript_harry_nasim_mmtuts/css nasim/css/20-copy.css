@@ -1,0 +1,39 @@
+*{margin:0;padding:0;}
+body{font-family:arial;font-size;color:#333;}
+h1,h2,h3,h4,h5,h6{font-family:arial;}
+#title{text-align:center;padding: 30px;}
+#content{width:100%;margin:auto;padding: 20px;position: relative;z-index: 1;}
+
+section#product {
+    background: #0000ff63;
+    color: white;
+    padding: 60px;
+}
+
+section#service {
+    color: white;
+    background: #FF5722;
+    padding: 60px;
+    position: relative;
+}
+#getaquite{background:white;padding: 20px;font-size: 25px;background: orange;color: black;position: absolute;left: 44%;top: -31px;}
+a#getaquite:before {
+    content: '';
+    border-bottom: 50px solid #6f65c7;
+    border-right: 50px solid #d2cc1c00;
+    position: absolute;
+    left: -24px;
+    top: 7px;
+    transform: rotate(45deg);
+}
+a#getaquite:after {
+    content: '';
+    border-bottom: 50px solid #6f65c7;
+    border-right: 50px solid #d2cc1c00;
+    position: absolute;
+    left: 150px;
+    top: 7px;
+    transform: rotate(225deg);
+}
+section#service:before {content: '';width: 57%;height: 100px;background: #ff5722;position: absolute;left: -23px;top: -37px;transform: rotate(4deg);}
+section#service:after {content: '';width: 57%;height: 100px;background: #ff5722;position: absolute;left: 807px;top: -55px;transform: rotate(172deg);}

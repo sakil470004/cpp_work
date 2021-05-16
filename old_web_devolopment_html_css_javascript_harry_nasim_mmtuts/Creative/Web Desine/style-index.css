@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+body{
+		background: #f3f3f3;
+}
+.company-logo{
+	width:30%;
+	height:40px;
+	padding:20px;
+	color: #fdff00;
+	font-family:arial black;
+	font-style:italic;
+	font-size:30px;
+	background-image: url(img/1.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	opacity: 0.5;
+	float:left;
+}
+.main-nav{
+   width: 65%;
+   height: 81px;
+   background: #eadfcf;
+   padding: 0 14px;
+   float: right;
+}
+.main-nav ul{float: right;}
+.main-nav ul li{
+  list-style:none;	
+  display: inline;
+}
+.main-nav ul li a{
+	text-decoration:none;
+	padding: 0 15px;
+	font-size:30px;
+	line-height: 74px;
+}

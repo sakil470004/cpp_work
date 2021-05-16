@@ -1,0 +1,130 @@
+@font-face{
+	font-family:sakil;
+src:url(../font/IndieFlower-Regular.woff);}
+
+*{margin: 0px;padding:0px;}
+body{
+    font-family: sakil;
+    font-size: 19px;
+    color: #461b1b;
+    background: #b5aac357;
+	overflow:hidden;
+    }
+#service-block{
+	      background: #dddddd57;
+	      width: 351px;
+	      padding: 14px;
+	      overflow: hidden;
+	      line-height: 20px;
+	      display: inline-block;
+		transition:1s all;
+animation-name:zoom;
+animation-duration:1s;		
+} 
+#service-block:hover{background:black;color:white;transform:scale(0.8);
+cursor:pointer;
+}
+
+
+@keyframes zoom{
+	
+	from{transform:scale(0.1) rotate(360deg)}
+	to{transform:scale(1) rotate(0deg)}
+	
+	
+}
+
+
+
+
+#service-block img{
+	
+	width:50px;
+	
+}
+#section-title{text-align:center;color: #0000ff7d;margin-top: 27px;/* overflow:hidden; */}
+#righticon{width:250px;float:right;}
+#lefticon{    width: 70px;
+    float: left;
+    margin: 11px 0px;}
+#righticon,#lefticon{disply:inline-block;}
+#righticon h2{margin-bottom:10px;
+   font-size:18px;
+}
+#righticon p {
+	font-size:13px;
+	
+}
+#all{
+	margin:auto;
+	width:1170px;
+	text-align:center;
+	overflow:hidden;
+	
+}
+#dada{
+	
+/* background: #423c3c42; */
+	
+color: #6e00ff87;overflow:hidden;
+	
+padding-top: 40px;
+}
+#dada2{
+	padding: 5px 0px;
+	/* background: #423c3c42; */
+	color: #6e00ff87;
+	margin-left: 108px;
+	margin-bottom: 20px;
+	overflow:hidden;
+}
+#about-right{
+	width: 500px;
+	float: right;
+	margin: auto;
+	margin-right: 107px;
+	color: #17ddfdbf;
+	
+}
+#about-right h2:hover{color:black;cursor:pointer;}
+#about-left{
+	float: left;
+	width: 500px;
+	margin: auto;
+	margin-left: 238px;
+}
+#about-left img{
+	
+width: 453px;
+}
+#about-us{
+	overflow:hidden;
+	font-size: 40px;
+	margin: auto;
+}
+#about-title {
+	margin-top: 12px;
+	margin:auto;
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+	#nav{width:100%;background: #8f64d6;    padding-bottom: 47px;}
+nav{/* background: #ffffffb5; */padding:20px 30px;}
+#main-manu{
+	margin:0;
+	padding:0;
+	list-style:none;
+	/* float:right; */
+	overflow:hidden;
+	/* margin-bottom:20px; */
+}
+#main-manu li{
+	
+display:inline-block;
+	
+border: 3px solid #316127;
+}
+#main-manu li a{text-decoration:none;text-transform:uppercase;/* margin-bottom: 30px; */padding: 32px;font-family: arial black;}
+#nav-manu{float:right;overflow:hidden;}
+#nav-pic{overflow:hidden;width: 183px;height: 27px;float: left;}

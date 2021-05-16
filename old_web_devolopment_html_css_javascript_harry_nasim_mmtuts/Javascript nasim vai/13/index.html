@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Js slider</title>
+    <style type="text/css">
+
+      .container{width:960px;margin:30px auto;height:300px;}
+      .container .sliderItems img{width:100%}
+      .slider-container{position:relative;}
+      .slider-container .sliderItems{position:absolute;width:100%;opacity:0;transition:all 1s;}
+      .slider-container .active{opacity:1;width:100%}
+        </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="slider-container">
+        <div class="sliderItems active"> <img src="image/1.jpg" alt=""></div>
+    <div class="sliderItems"> <img src="image/2.jpg" alt=""></div>
+          <div class="sliderItems"> <img src="image/3.png" alt=""></div>
+                <div class="sliderItems"> <img src="image/4.jpg" alt=""></div>
+      </div>
+
+    </div>
+    <button id="changeSlide" type="button" >Click</button>
+<script type="text/javascript" src="app.js">
+
+</script>
+  </body>
+</html>

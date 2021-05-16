@@ -1,0 +1,12 @@
+*{margin:0;padding:0;}
+#primari-menu{list-style:none;float: right;background: #00000033;}
+#main-nav{width:100%;}
+#primari-menu li{display: inline-flex;padding:20px;position: relative;}
+#primari-menu li a{font-size:30px;border: 3px solid #1e515f66;padding: 15px;}
+#primari-menu li a:hover{color:white;background:blue;cursor:pointer;}
+#sub-menu {list-style:none;float: none;display: inline-block;position:absolute;top: 88px;left: -9999px;}
+#primari-menu li:hover #sub-menu{position:absolute;left:0px;transform:translate(20px);}
+#left img{width:200px;float:left;}
+#maindiv{display:inline}
+#sub-menu li{transition:1s all;}
+#primari-menu li:hover #sub-menu li a{padding:10px;}

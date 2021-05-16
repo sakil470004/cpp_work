@@ -1,0 +1,56 @@
+*{margin:0;padding:0;}
+body{font-family:arial;font-size:14px;color:#333;}
+h1,h2,h3,h4,h5,h6{font-family:arial black;}
+#content{width:1170px;margin:auto;}
+#title{text-align:center;margin-bottom:20px}
+section{padding:25px 0px}
+section#products {
+    background: #3b50508c;
+    color: white;
+    padding: 100px;
+}
+section#services {
+    background:orange;
+    color: white;
+    padding: 100px;
+}
+#getaquote{background: #ffc254bf;color:white;padding:12px 12px;font-size:15px;text-decoration:none;text-transform:uppercase;text-align:center;}
+#Service #content{position:relative;}
+#getaquote{position:absolute;top: 261px;left: 46%;}
+a#getaquote:before {
+    content: '';
+    position: absolute;
+    border-right: 40px solid #ffc800c7;
+    border-bottom: 40px solid #00800000;
+    transform: rotate(226deg);
+    top: 2px;
+    right: 105px;
+}
+a#getaquote:after {
+    content: '';
+    position: absolute;
+    border-right: 40px solid #ffc800c7;
+    border-bottom: 40px solid #00800000;
+    transform: rotate(44deg);
+    top: 2px;
+    right: -20px;
+}
+section#services:before {
+    width: 52%;
+    content: '';
+    background: orange;
+    position: absolute;
+    left: -6px;
+    height: 83px;
+    transform: rotate(4deg);
+    top: 259px;
+}section#services:after {
+    width: 52%;
+    content: '';
+    background: orange;
+    position: absolute;
+    left: 776px;
+    height: 83px;
+    transform: rotate(-4deg);
+    top: 267px;
+}

@@ -1,0 +1,36 @@
+@font-face{
+	font-family:sakil;
+	src:url(../font/IndieFlower-Regular.woff)
+	
+}
+body{font-family:sakil;background-image: url(../image/4.jpg);background-repeat:no-repeat;background-size:cover;}
+#main{
+width:350px;
+padding:10px;
+margin:auto;
+background:#00000042;
+color:white;
+}
+#from{
+padding:8px;
+border: 2px solid #3e1f25;
+width:100%;
+border:0px;
+}
+#from input{
+width:93%;
+padding:8px;border:0px;}
+#country{
+width:97%;
+border:0px;
+margin-left:8px;
+
+padding-top:12px;padding-bottom:12px;
+}
+#submitbotton input{
+width:105%;
+padding-top:8px;padding-bottom:8px;
+}
+#Singup{width:100%;
+text-align:center;
+}

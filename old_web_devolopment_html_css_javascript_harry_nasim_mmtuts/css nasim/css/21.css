@@ -1,0 +1,5 @@
+*{margin:0;padding:0;}
+section#sakil{height:500px;background: linear-gradient(#0000004f,#0000004f),
+linear-gradient(#0000004f,#0000004f),
+url(../image/7.jpg);background-repeat:no-repeat;background-size:cover;background-position: left top;color:white;font-family:arial black;font-size:35px;text-align:center;}
+section#sakil h1{line-height:500px;}
