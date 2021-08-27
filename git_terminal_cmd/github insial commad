@@ -1,0 +1,12 @@
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sakil470004/taskBoard.git
+git push -u origin main
+//then the take username and password 
+username is my user_name
+password is the token password. {Don't give your password}
+
+
+
