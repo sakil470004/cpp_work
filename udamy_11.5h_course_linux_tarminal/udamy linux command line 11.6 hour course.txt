@@ -307,3 +307,6 @@ s@s-VirtualBox:~$ history
   298  histor
   299  history
   300 rm -rf ./{5..32}*/*.srt
+  //operation "which file you want operation" destinision
+  cp ./{7..34}*/*.txt ./text*
+
