@@ -691,5 +691,8 @@
   689  cd "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/" && g++ 2_breadth_first_search.cpp -o 2_breadth_first_search && "/home/workTime/cpp work/Log2Base2_Algorithms_Tutorial/"2_breadth_first_search
   690  sudo apt-get install build-essential git
   691  history
-
- s  s-HP-Laptop-15s-du1xxx  ~  
+  //force firmware update
+ sudo dpkg -i --force-overwrite /var/cache/apt/archives/linux-firmware_1.79.9_all.deb
+ 
+//force install 
+sudo apt -f install "firefox"
