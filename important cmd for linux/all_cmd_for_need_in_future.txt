@@ -696,3 +696,6 @@
  
 //force install 
 sudo apt -f install "firefox"
+
+//wifi on
+nmcli connection up sakil
